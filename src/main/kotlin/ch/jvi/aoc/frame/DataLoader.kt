@@ -49,5 +49,5 @@ fun inputURL(day: Int, year: Int): String {
 }
 
 fun sessionCookie(): String {
-    return ""
+    return "session=${System.getenv("ADVENT_OF_CODE_COOKIE")}"
 }
