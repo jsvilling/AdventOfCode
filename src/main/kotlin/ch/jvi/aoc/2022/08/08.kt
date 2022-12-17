@@ -1,8 +1,6 @@
-package ch.jvi.aoc.`2022`.acht
+package ch.jvi.aoc.`2022`.`08`
 
-import ch.jvi.aoc.Shame
 import ch.jvi.aoc.frame.loadData
-import java.util.function.Predicate
 
 fun main() {
     val lines = loadData(8, 2022)
